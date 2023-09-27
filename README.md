@@ -37,6 +37,12 @@ Add the extension to Chrome:
 * [Source code (GitHub)](https://github.com/0x1eef/photon#readme)
 * [Source code (GitLab)](https://gitlab.com/0x1eef/photon#about)
 
+## Screenshots
+
+<p>
+  <img src="https://raw.githubusercontent.com/0x1eef/photon/main/share/photon/photon.png">
+</p>
+
 ## <a id="license"> License </a>
 
 [BSD Zero Clause](https://choosealicense.com/licenses/0bsd/).
