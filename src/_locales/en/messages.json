@@ -1,0 +1,26 @@
+{
+  "ip_address": {
+    "message": "IP Address"
+  },
+  "isp": {
+    "message": "ISP"
+  },
+  "city": {
+    "message": "City"
+  },
+  "country": {
+    "message": "Country"
+  },
+  "tor_exit_node": {
+    "message": "Tor exit node"
+  },
+  "loading": {
+    "message": "Loading..."
+  },
+  "yes": {
+    "message": "Yes"
+  },
+  "no": {
+    "message": "No"
+  }
+}

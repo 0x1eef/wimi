@@ -1,0 +1,17 @@
+.label {
+  padding: 4px;
+}
+
+.label-rounded {
+  border-radius: 5px;
+}
+
+.label-error {
+  background: var(--primary-red);
+  color: var(--primary-white);
+}
+
+.label-success {
+  background: var(--primary-green);
+  color: var(--primary-white);
+}
