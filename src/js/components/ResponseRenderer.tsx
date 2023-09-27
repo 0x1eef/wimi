@@ -4,7 +4,7 @@ import { TResponse } from "/lib/response";
 export function ResponseRenderer({ response }: {response: TResponse}) {
   const t = chrome.i18n.getMessage;
 
-  function YesOrNoLabel({yes}: {yes: boolean}) {
+  function YesOrNoLabel({ yes }: {yes: boolean}) {
     if (yes) {
       return (<label className="label label-rounded label-success">{t("yes")}</label>);
     } else {
@@ -32,7 +32,7 @@ export function ResponseRenderer({ response }: {response: TResponse}) {
       </div>
       <div className="row">
         <div>{t("tor_exit_node")}</div>
-        <div>{<YesOrNoLabel yes={response.isTorExitNode}/>}</div>
+        <div><YesOrNoLabel yes={response.isTorExitNode}/></div>
       </div>
     </div>
   );
