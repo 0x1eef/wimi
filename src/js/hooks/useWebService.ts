@@ -1,5 +1,5 @@
-import { TResponse, Response } from "/lib/response";
 import { useEffect, useState } from "react";
+import { TResponse, Response } from "~/lib/response";
 
 type Maybe<T> = T | null;
 

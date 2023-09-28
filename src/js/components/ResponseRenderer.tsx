@@ -1,5 +1,5 @@
 import React from "react";
-import { TResponse } from "/lib/response";
+import { TResponse } from "~/lib/response";
 
 export function ResponseRenderer({ response }: {response: TResponse}) {
   const t = chrome.i18n.getMessage;

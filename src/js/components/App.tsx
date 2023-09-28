@@ -1,7 +1,7 @@
 import React from "react";
-import { ErrorRenderer } from "/components/ErrorRenderer";
-import { ResponseRenderer } from "/components/ResponseRenderer";
-import { useWebService } from "/hooks/useWebService";
+import { ErrorRenderer } from "~/components/ErrorRenderer";
+import { ResponseRenderer } from "~/components/ResponseRenderer";
+import { useWebService } from "~/hooks/useWebService";
 
 export function App() {
   const [response, error] = useWebService();
