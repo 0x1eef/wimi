@@ -47,6 +47,6 @@ Add the extension to Chrome:
 
 [BSD Zero Clause](https://choosealicense.com/licenses/0bsd/).
 <br>
-See [LICENSE](./LICENSE)
+See [LICENSE](./LICENSE).
 
 
