@@ -22,5 +22,8 @@
   },
   "no": {
     "message": "No"
+  },
+  "error": {
+    "message": "Error"
   }
 }
