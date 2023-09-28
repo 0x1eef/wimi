@@ -1,4 +1,5 @@
 import React from "react";
+import { ErrorRenderer } from "/components/ErrorRenderer";
 import { ResponseRenderer } from "/components/ResponseRenderer";
 import { useWebService } from "/hooks/useWebService";
 
@@ -8,7 +9,7 @@ export function App() {
   if (response) {
     return (<ResponseRenderer response={response}/>);
   } else if (error) {
-    /* FIXME: Add ErrorRenderer */
+    return (<ErrorRenderer error={error}/>);
   } else {
     return (<div className="loader">{t("loading")}</div>);
   }
