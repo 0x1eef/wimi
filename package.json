@@ -27,6 +27,7 @@
     "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "build": "npm exec webpack"
+    "build": "npm exec webpack",
+    "test": "npm exec jest -- test"
   }
 }
