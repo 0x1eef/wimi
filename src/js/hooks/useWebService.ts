@@ -12,8 +12,7 @@ export function useWebService(): [Maybe<TResponse>, Maybe<Error>] {
     if (res.status === 200) {
       return res.json();
     } else {
-      const message = "There was an unexpected response from the web service. " +
-                      `The status code was ${res.status}`;
+      const message = `Unexpected server response (${res.status})`;
       throw new Error(message);
     }
   }
