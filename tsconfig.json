@@ -10,8 +10,8 @@
     "jsx": "react",
     "allowJs": true,
     "lib": [ "ES2020", "DOM" ],
-
     "baseUrl": "src/",
     "paths": { "~/*": ["js/*"] },
+    "types": ["node", "jest", "@testing-library/jest-dom", "@types/chrome"]
   }
 }
