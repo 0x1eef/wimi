@@ -1,6 +1,5 @@
 export type TResponse = {
   IPAddress: string;
-  Location: string;
   ISP: string;
   City: string;
   Country: string;
@@ -20,7 +19,6 @@ export function Response(res: TServerResponse): TResponse {
   const self = Object.create(null);
 
   self.IPAddress = res.YourFuckingIPAddress;
-  self.Location = res.YourFuckingLocation;
   self.ISP = res.YourFuckingISP;
   self.City = res.YourFuckingCity;
   self.Country =  res.YourFuckingCountry;
