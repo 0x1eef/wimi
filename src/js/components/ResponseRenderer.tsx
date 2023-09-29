@@ -13,7 +13,7 @@ export function ResponseRenderer({ response }: {response: TResponse}) {
   }
 
   return (
-    <div className="response">
+    <div data-testid="response" className="response">
       <div className="row">
         <div>{t("ip_address")}</div>
         <div>{response.IPAddress}</div>
