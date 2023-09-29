@@ -1,12 +1,12 @@
 import React from "react";
-import '@testing-library/jest-dom'
+import '@testing-library/jest-dom';
 import { render, screen } from "@testing-library/react";
 import { ResponseRenderer } from "~/components/ResponseRenderer";
 import { getMessage } from "./mocks/chrome.i18n";
 
 describe("ResponseRenderer.tsx", () => {
   beforeEach(() => {
-    const chrome: any = {i18n: {getMessage}};
+    const chrome: any = { i18n: { getMessage } };
     global.chrome = chrome;
   });
 
@@ -23,7 +23,7 @@ describe("ResponseRenderer.tsx", () => {
   };
 
   describe("when isTorExitNode is false", () => {
-    const response = {...defaultResponse};
+    const response = { ...defaultResponse };
 
     beforeEach(() => {
       render(<ResponseRenderer response={response}/>);
@@ -56,7 +56,7 @@ describe("ResponseRenderer.tsx", () => {
   });
 
   describe("when isTorExitNode is true", () => {
-    const response = {...defaultResponse, isTorExitNode: true};
+    const response = { ...defaultResponse, isTorExitNode: true };
 
     beforeEach(() => {
       render(<ResponseRenderer response={response}/>);
@@ -65,6 +65,6 @@ describe("ResponseRenderer.tsx", () => {
     test("isTorExitNode is rendered as Yes", () => {
       expect(screen.getByText("Tor exit node")).toBeInTheDocument();
       expect(screen.getByText("Yes")).toBeInTheDocument();
-    })
+    });
   });
 });
