@@ -8,7 +8,6 @@ export type TResponse = {
 
 export type TServerResponse = {
   YourFuckingIPAddress: string;
-  YourFuckingLocation: string;
   YourFuckingISP: string;
   YourFuckingCity: string;
   YourFuckingCountry: string;
