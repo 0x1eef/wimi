@@ -22,7 +22,7 @@ export function useWebService(): [Maybe<TResponse>, Maybe<Error>] {
       .then(receive)
       .then((json) => setResponse(Response(json)))
       .catch((err) => setError(err));
-  });
+  }, []);
 
   return [response, error];
 }
