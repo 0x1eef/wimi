@@ -7,6 +7,7 @@ export function useWebService(): [Maybe<TResponse>, Maybe<Error>] {
   const endpoint = "https://wtfismyip.com/json";
   const [response, setResponse] = useState<Maybe<TResponse>>(null);
   const [error, setError] = useState<Maybe<Error>>(null);
+  const options: RequestInit = {cache: "no-store"};
 
   function receive(res: Response) {
     if (res.status === 200) {
@@ -18,7 +19,7 @@ export function useWebService(): [Maybe<TResponse>, Maybe<Error>] {
   }
 
   useEffect(() => {
-    fetch(endpoint)
+    fetch(endpoint, options)
       .then(receive)
       .then((json) => setResponse(Response(json)))
       .catch((err) => setError(err));

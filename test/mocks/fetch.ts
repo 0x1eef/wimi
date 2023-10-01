@@ -4,11 +4,11 @@ export function success(_path: RequestInfo | URL, _options?: RequestInit) {
   const json = () => (
     new Promise<TServerResponse>((resolve) => (
       resolve({
-        YourFuckingIPAddress: "127.0.0.1",
-        YourFuckingISP: "FooBar Ltd",
-        YourFuckingCity: "Foo City",
-        YourFuckingCountry: "United States of FooBar",
-        YourFuckingTorExit: false
+        YourIPAddress: "127.0.0.1",
+        YourISP: "FooBar Ltd",
+        YourCity: "Foo City",
+        YourCountry: "United States of FooBar",
+        YourTorExit: false
       })
     )
   ));

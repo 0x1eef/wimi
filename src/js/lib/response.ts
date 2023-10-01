@@ -7,21 +7,21 @@ export type TResponse = {
 };
 
 export type TServerResponse = {
-  YourFuckingIPAddress: string;
-  YourFuckingISP: string;
-  YourFuckingCity: string;
-  YourFuckingCountry: string;
-  YourFuckingTorExit: boolean;
+  YourIPAddress: string;
+  YourISP: string;
+  YourCity: string;
+  YourCountry: string;
+  YourTorExit: boolean;
 };
 
 export function Response(res: TServerResponse): TResponse {
   const self = Object.create(null);
 
-  self.IPAddress = res.YourFuckingIPAddress;
-  self.ISP = res.YourFuckingISP;
-  self.City = res.YourFuckingCity;
-  self.Country =  res.YourFuckingCountry;
-  self.isTorExitNode = res.YourFuckingTorExit;
+  self.IPAddress = res.YourIPAddress;
+  self.ISP = res.YourISP;
+  self.City = res.YourCity;
+  self.Country =  res.YourCountry;
+  self.isTorExitNode = res.YourTorExit;
 
   return self;
 }
