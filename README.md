@@ -1,6 +1,6 @@
 ## About
 
-Photon is a Google Chrome extension that provides information about
+Photon is a Chromium extension that provides information about
 the public IP address you are using to connect to the internet. When
 the extension's icon is clicked, the extension makes a request to the
 [clean.wtfismyip.com](https://clean.wtfismyip.com)
