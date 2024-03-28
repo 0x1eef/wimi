@@ -7,7 +7,7 @@ to your browser.
 
 ## Demo
 
-<p>
+<p align="center">
   <img src="https://raw.githubusercontent.com/0x1eef/myip.wtf/main/share/myip.wtf/myip.wtf.png">
 </p>
 
