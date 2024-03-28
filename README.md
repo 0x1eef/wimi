@@ -5,7 +5,7 @@ from
 [clean.myip.wtf.com/json](https://clean.myip.wtf.com/json)
 to your browser.
 
-## Demo
+## Example
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/0x1eef/myip.wtf/main/share/myip.wtf/myip.wtf.png">
