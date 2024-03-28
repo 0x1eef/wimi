@@ -4,7 +4,7 @@ import { TResponse, Response } from "~/lib/response";
 type Maybe<T> = T | null;
 
 export function useWebService(): [Maybe<TResponse>, Maybe<Error>] {
-  const endpoint = "https://clean.wtfismyip.com/json";
+  const endpoint = "https://clean.myip.wtf/json";
   const [response, setResponse] = useState<Maybe<TResponse>>(null);
   const [error, setError] = useState<Maybe<Error>>(null);
   const options: RequestInit = {cache: "no-store"};

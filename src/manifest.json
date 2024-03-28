@@ -1,15 +1,18 @@
 {
   "manifest_version": 3,
-  "name": "Photon",
+  "name": "myip.wtf",
   "version": "0.3.0",
-  "description": "Provides information about your public IP address.",
+  "description": "Relays information about your public IP address from myip.wtf to your browser",
   "action": {
     "default_popup": "/html/browseraction.html"
   },
-  "permissions": [],
   "icons": {
-    "16": "images/icons/icon16.png",
-    "128": "images/icons/icon128.png"
+    "16": "images/icons/wtf16x16.png",
+    "48": "images/icons/wtf48x48.png",
+    "64": "images/icons/wtf64x64.png",
+    "128": "images/icons/wtf128x128.png",
+    "256": "images/icons/wtf256x256.png"
   },
+  "permissions": [],
   "default_locale": "en"
 }
