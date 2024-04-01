@@ -6,6 +6,9 @@ for size in ${sizes}; do
     convert  ${dir}/icon.svg \
         -resize ${size} \
         -background none \
+	-trim +repage \
+	-fuzz 5% \
+	-transparent white \
         -gravity center \
         -extent $size \
         ${dir}/wtf${size}.png
