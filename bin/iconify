@@ -1,0 +1,12 @@
+#!/bin/sh
+set -e
+sizes="16x16 48x48 64x64 128x128 256x256"
+dir="src/images/icons"
+for size in ${sizes}; do
+    convert  ${dir}/icon.svg \
+        -resize ${size} \
+        -background none \
+        -gravity center \
+        -extent $size \
+        ${dir}/wtf${size}.png
+done
