@@ -2,7 +2,7 @@
 
 myip.wtf relays information about your public IP address
 from
-[clean.myip.wtf.com/json](https://clean.myip.wtf.com/json)
+[clean.myip.wtf/json](https://clean.myip.wtf/json)
 to your browser.
 
 ## Example
