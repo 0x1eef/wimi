@@ -1,7 +1,6 @@
 :root {
   /* Defaults */
   --default-font-size: 1.15em;
-  --default-font-family: "SF Mono","Segoe UI Mono","Roboto Mono",Menlo,Courier,monospace;
 
   /* Colors */
   --primary-red: #d73e48;
@@ -13,10 +12,8 @@
 }
 
 body {
-  font-family: var(--default-font-family);
-  width: 368px;
-  height: 212px;
-  margin: 0;
+  font-size: small;
+  width: 400px;
 }
 
 #root, .loader {
@@ -37,11 +34,7 @@ a:active, a:focus, a:hover {
 footer {
   background: var(--secondary-white);
   color: var(--primary-red);
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  padding: 10px;
-  text-align: center;
 }
 
 .loader {

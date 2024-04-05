@@ -5,11 +5,8 @@
   "isp": {
     "message": "ISP"
   },
-  "city": {
-    "message": "City"
-  },
-  "country": {
-    "message": "Country"
+  "location": {
+    "message": "Location"
   },
   "tor_exit_node": {
     "message": "Tor exit node"
