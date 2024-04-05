@@ -33,7 +33,7 @@ function Row({ name, value }: { name: string; value: ReactNode }) {
   return (
     <div className="flex h-8">
       <div className="flex w-2/4 items-center font-semibold">{name}</div>
-      <div className="flex w-2/4 items-center justify-end">{value}</div>
+      <div className="flex w-3/4 items-center justify-end">{value}</div>
     </div>
   );
 }
