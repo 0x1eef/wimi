@@ -18,13 +18,16 @@ to your browser.
         git clone https://github.com/0x1eef/myip.wtf
         cd myip.wtf
         npm i
-        npm run build
-
+        # production build (recommended)
+        npm run build:production
+        # development build 
+        npm run build:development
+        
 * Load the extension
     * Visit `chrome://extensions`.
     * Check `Developer mode` (top right hand corner).
     * Click `Load unpacked extension`.
-    * Choose the `build/` directory from the file dialog.
+    * Choose the `build/production/` directory from the file dialog.
     * Done.
 
 ## Sources
