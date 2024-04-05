@@ -18,7 +18,9 @@ describe("ErrorRenderer.tsx", () => {
   });
 
   test("an error is rendered", () => {
-    expect(screen.getByText("Error")).toBeInTheDocument();
-    expect(screen.getByText(error.message)).toBeInTheDocument();
+    const { getByTestId, getByText } = screen;
+    const span = getByTestId("error-message");
+    expect(getByText("Error")).toBeInTheDocument();
+    expect(span.textContent).toEqual(error.message);
   });
 });

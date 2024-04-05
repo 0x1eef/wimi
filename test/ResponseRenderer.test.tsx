@@ -39,14 +39,9 @@ describe("ResponseRenderer.tsx", () => {
       expect(screen.getByText(response.ISP)).toBeInTheDocument();
     });
 
-    test("a city is rendered", () => {
-      expect(screen.getByText("City")).toBeInTheDocument();
-      expect(screen.getByText(response.City)).toBeInTheDocument();
-    });
-
-    test("a country is rendered", () => {
-      expect(screen.getByText("Country")).toBeInTheDocument();
-      expect(screen.getByText(response.Country)).toBeInTheDocument();
+    test("a location is rendered", () => {
+      expect(screen.getByText("Location")).toBeInTheDocument();
+      expect(screen.getByText(`${response.City}, ${response.Country}`)).toBeInTheDocument();
     });
 
     test("isTorExitNode is rendered as No", () => {
