@@ -20,7 +20,7 @@ export function Response(res: TServerResponse): TResponse {
   self.IPAddress = res.YourIPAddress;
   self.ISP = res.YourISP;
   self.City = res.YourCity;
-  self.Country =  res.YourCountry;
+  self.Country = res.YourCountry;
   self.isTorExitNode = res.YourTorExit;
 
   return self;

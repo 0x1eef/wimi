@@ -35,7 +35,8 @@ module.exports = {
         { from: "src/css/", to: "css" },
         { from: "src/manifest.json", to: "manifest.json" },
         { from: "src/images", to: "images/" },
-        { from: "src/_locales", to: "_locales/" }
+        { from: "src/_locales", to: "_locales/" },
+        { from: "src/fonts", to: "fonts/" }
       ],
     }),
     new CleanWebpackPlugin(),
