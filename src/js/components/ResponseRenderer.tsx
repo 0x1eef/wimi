@@ -1,5 +1,6 @@
 import React, { useEffect, ReactNode } from "react";
 import { TResponse } from "~/lib/response";
+import { Footer } from "~/components/Footer";
 type TFunction = typeof chrome.i18n.getMessage;
 
 export function ResponseRenderer({ response }: { response: TResponse }) {
@@ -28,11 +29,11 @@ export function ResponseRenderer({ response }: { response: TResponse }) {
         <Row name={t("isp")} value={response.ISP} />
         <Row name={t("tor_exit_node")} value={<BooleanLabel on={response.isTorExitNode} t={t} />} />
       </div>
-      <footer className="flex items-center justify-center h-10">
+      <Footer>
         <a target="_blank" href="https://clean.myip.wtf">
           clean.myip.wtf
         </a>
-      </footer>
+      </Footer>
     </div>
   );
 }
