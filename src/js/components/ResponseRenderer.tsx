@@ -1,9 +1,25 @@
-import React, { ReactNode } from "react";
+import React, { useEffect, ReactNode } from "react";
 import { TResponse } from "~/lib/response";
 type TFunction = typeof chrome.i18n.getMessage;
 
 export function ResponseRenderer({ response }: { response: TResponse }) {
   const t = chrome.i18n.getMessage;
+
+  useEffect(() => {
+    const { body } = document;
+    const width = (() => {
+      const addr = response.IPAddress;
+      if (addr.length >= 30) {
+        return 525;
+      } else if (addr.length >= 20) {
+        return 450;
+      } else {
+        return 400;
+      }
+    })();
+    body.style.width = `${width}px`;
+  }, [response]);
+
   return (
     <div className="w-full h-48">
       <div className="flex flex-col h-5/6 justify-center w-3/4 m-auto" data-testid="response">
