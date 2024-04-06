@@ -15,13 +15,10 @@ to your browser.
 
 * Produce the `build/` directory
 
-        git clone https://github.com/0x1eef/myip.wtf
-        cd myip.wtf
-        npm i
-        # production build (recommended)
-        npm run build:production
-        # development build 
-        npm run build:development
+        $ git clone https://github.com/0x1eef/myip.wtf
+        $ cd myip.wtf
+        $ npm i
+        $ npm run build:production
         
 * Load the extension
     * Visit `chrome://extensions`.
