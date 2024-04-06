@@ -30,8 +30,8 @@ export function ResponseRenderer({ response }: { response: TResponse }) {
         <Row name={t("tor_exit_node")} value={<BooleanLabel on={response.isTorExitNode} t={t} />} />
       </div>
       <Footer>
-        <a target="_blank" href="https://clean.myip.wtf">
-          clean.myip.wtf
+        <a target="_blank" href={`https://${t("clean.myip.wtf")}`}>
+          {t("clean.myip.wtf")}
         </a>
       </Footer>
     </div>
