@@ -1,6 +1,9 @@
 {
   "name": "myip.wtf",
   "version": "0.4.2",
+  "webExt": {
+    "sourceDir": "build/production"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

@@ -14,5 +14,10 @@
     "256": "images/icons/wtf256x256.png"
   },
   "permissions": [],
-  "default_locale": "en"
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b9004e11-0d38-417e-8968-9adc2229a6c3}"
+    }
+  }
 }

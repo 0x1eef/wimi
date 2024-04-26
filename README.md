@@ -13,19 +13,27 @@ to your browser.
 
 ## Install
 
+**Chrome**
+
 * Produce the `build/` directory
 
         $ git clone https://github.com/0x1eef/myip.wtf
         $ cd myip.wtf
         $ npm i
         $ npm run build:production
-        
+
 * Load the extension
     * Visit `chrome://extensions`.
     * Check `Developer mode` (top right hand corner).
     * Click `Load unpacked extension`.
     * Choose the `build/production/` directory from the file dialog.
     * Done.
+
+**Firefox**
+
+The [share/myip.wtf/xpi](share/myip.wtf/xpi) directory contains
+signed XPI files for Firefox users. After downloading an XPI file
+the extension can be added to the browser from `about:addons`.
 
 ## Sources
 
