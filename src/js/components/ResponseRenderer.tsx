@@ -22,7 +22,7 @@ export function ResponseRenderer({ response }: { response: TResponse }) {
   }, [response]);
 
   return (
-    <div className="w-full h-48">
+    <div className="w-full h-full">
       <div className="flex flex-col h-5/6 justify-center w-3/4 m-auto" data-testid="response">
         <Row name={t("ip_address")} value={response.IPAddress} />
         <Row name={t("location")} value={`${response.City}, ${response.Country}`} />
