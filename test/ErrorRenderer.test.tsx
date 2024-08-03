@@ -5,6 +5,7 @@ import { ErrorRenderer } from "~/components/ErrorRenderer";
 import { getMessage } from "./mocks/chrome.i18n";
 
 describe("ErrorRenderer.tsx", () => {
+  const globalChrome = global.chrome;
   const error = new Error("This is an example error message");
 
   beforeEach(() => {
@@ -14,7 +15,7 @@ describe("ErrorRenderer.tsx", () => {
   });
 
   afterEach(() => {
-    global.chrome = undefined;
+    global.chrome = globalChrome;
   });
 
   test("an error is rendered", () => {

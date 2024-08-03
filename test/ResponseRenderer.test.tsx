@@ -5,13 +5,15 @@ import { ResponseRenderer } from "~/components/ResponseRenderer";
 import { getMessage } from "./mocks/chrome.i18n";
 
 describe("ResponseRenderer.tsx", () => {
+  const globalChrome = global.chrome;
+
   beforeEach(() => {
     const chrome: any = { i18n: { getMessage } };
     global.chrome = chrome;
   });
 
   afterEach(() => {
-    global.chrome = undefined;
+    global.chrome = globalChrome;
   });
 
   const defaultResponse = {
