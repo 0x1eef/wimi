@@ -42,6 +42,6 @@ the extension can be added to the browser from `about:addons`.
 
 ## License
 
-[BSD Zero Clause](https://choosealicense.com/licenses/0bsd/).
+[BSD Zero Clause](https://choosealicense.com/licenses/0bsd/)
 <br>
-See [LICENSE](./LICENSE).
+See [LICENSE](./LICENSE)

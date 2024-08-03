@@ -32,9 +32,9 @@
     "webpack-merge": "^6.0"
   },
   "scripts": {
-    "build:production": "npm exec webpack -- --config webpack.production.js",
-    "build:development": "npm exec webpack -- --config webpack.development.js",
-    "test": "npm exec jest -- test",
-    "format": "npm exec prettier -- -w src/js"
+    "build:production": "npx webpack --config webpack.production.js",
+    "build:development": "npx webpack --config webpack.development.js",
+    "test": "npx jest test",
+    "eslint": "npx eslint src/"
   }
 }
