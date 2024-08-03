@@ -1,31 +1,31 @@
-const path = require('path');
-const process = require('process');
+const path = require("path");
+const process = require("process");
 const CopyPlugin = require("copy-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 module.exports = {
  entry: {
-    index: './src/js/index.tsx',
+    index: "./src/js/index.tsx",
   },
   output: {
-    filename: 'js/[name].js',
-    path: path.resolve(__dirname, 'build')
+    filename: "js/[name].js",
+    path: path.resolve(__dirname, "build")
   },
   resolve: {
-    alias: { '~': [path.resolve('src/js/')] },
-    roots: [path.resolve('src/js'), path.resolve('node_modules')],
-    modules: [path.resolve('src/js'), path.resolve('node_modules')],
-    extensions: ['.ts', '.tsx']
+    alias: { "~": [path.resolve("src/js/")] },
+    roots: [path.resolve("src/js"), path.resolve("node_modules")],
+    modules: [path.resolve("src/js"), path.resolve("node_modules")],
+    extensions: [".ts", ".tsx"]
   },
   module: {
     rules: [
       {
         test: /\.tsx?$/,
-        loader: 'esbuild-loader',
+        loader: "esbuild-loader",
         exclude: /node_modules/,
         options: {
-          loader: 'tsx',
-          target: 'es2015'
+          loader: "tsx",
+          target: "es2015"
         }
       },
     ],

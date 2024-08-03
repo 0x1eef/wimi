@@ -1,6 +1,6 @@
-const path = require('path');
-const { merge } = require('webpack-merge');
-const common = require('./webpack.common.js');
+const path = require("path");
+const { merge } = require("webpack-merge");
+const common = require("./webpack.common.js");
 
 module.exports = merge(
   common,
@@ -8,6 +8,6 @@ module.exports = merge(
     mode: "production",
     devtool: false,
     optimization: { minimize: true },
-    output: {path: path.resolve(__dirname, 'build', 'production')}
+    output: {path: path.resolve(__dirname, "build", "production")}
   }
 )
