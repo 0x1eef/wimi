@@ -1,4 +1,3 @@
-import React from "react";
 import { ErrorRenderer } from "~/components/ErrorRenderer";
 import { ResponseRenderer } from "~/components/ResponseRenderer";
 import { Loader } from "~/components/Loader";

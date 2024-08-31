@@ -1,4 +1,4 @@
-import React, { useEffect, ReactNode } from "react";
+import { useEffect, ReactNode } from "react";
 import { TResponse } from "~/lib/response";
 import { Footer } from "~/components/Footer";
 type TFunction = typeof chrome.i18n.getMessage;

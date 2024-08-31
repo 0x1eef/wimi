@@ -1,8 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
+import { render } from "preact";
 import { App } from "~/components/App";
 
 document.addEventListener("DOMContentLoaded", () => {
   const el: HTMLElement = document.getElementById("root")!;
-  ReactDOM.createRoot(el).render(<App />);
+  render(<App />, el);
 });

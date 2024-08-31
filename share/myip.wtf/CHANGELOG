@@ -1,0 +1,13 @@
+# -*- mode: org -*-
+
+** vNEXT
+
+**** Replace React with preact
+This change replaces React with a lightweight alternative
+known as preact
+
+**** eslint v9
+This change upgrades our version of eslint to v9
+
+**** Fix ~$ npm outdated~
+This change upgrades outdated dependencies

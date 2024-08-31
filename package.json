@@ -4,10 +4,6 @@
   "webExt": {
     "sourceDir": "build/production"
   },
-  "dependencies": {
-    "react": "^18.3",
-    "react-dom": "^18.3"
-  },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4",
     "@testing-library/react": "^16.0",
@@ -36,5 +32,8 @@
     "build:development": "npx webpack --config webpack.development.js",
     "test": "npx jest test",
     "eslint": "npx eslint src/"
+  },
+  "dependencies": {
+    "preact": "^10.23.2"
   }
 }

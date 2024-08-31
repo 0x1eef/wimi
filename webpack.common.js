@@ -12,7 +12,12 @@ module.exports = {
     path: path.resolve(__dirname, "build")
   },
   resolve: {
-    alias: { "~": [path.resolve("src/js/")] },
+    alias: {
+      "~": [path.resolve("src/js/")],
+      "react": "preact/compat",
+      "react-dom": "preact/compat",
+      "react/jsx-runtime": "preact/jsx-runtime",
+    },
     roots: [path.resolve("src/js"), path.resolve("node_modules")],
     modules: [path.resolve("src/js"), path.resolve("node_modules")],
     extensions: [".ts", ".tsx"]
