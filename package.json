@@ -1,6 +1,6 @@
 {
   "name": "myip.wtf",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "webExt": {
     "sourceDir": "build/production"
   },

@@ -1,5 +1,10 @@
 # -*- mode: org -*-
 
+** v0.5.1
+
+**** Shorten description in manifest
+Shorten the addon description
+
 ** v0.5.0
 
 **** Replace React with preact
