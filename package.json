@@ -1,5 +1,5 @@
 {
-  "name": "myip.wtf",
+  "name": "wimi",
   "version": "0.5.1",
   "webExt": {
     "sourceDir": "build/production"
