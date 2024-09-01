@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "myip.wtf",
+  "name": "wimi",
   "version": "0.5.1",
   "description": "Your public IP address from clean.myip.wtf to your browser",
   "action": {

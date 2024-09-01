@@ -1,6 +1,6 @@
 ## About
 
-myip.wtf relays information about your public IP address
+wimi relays information about your public IP address
 from
 [clean.myip.wtf/json](https://clean.myip.wtf/json)
 to your browser. The primary development and runtime
@@ -16,7 +16,7 @@ There are XPI files provided for FireFox users as well.
 ## Example
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/0x1eef/myip.wtf/main/share/myip.wtf/myip.wtf.png">
+  <img src="https://raw.githubusercontent.com/0x1eef/wimi/main/share/wimi/wimi.png">
 </p>
 
 ## Install
@@ -25,8 +25,8 @@ There are XPI files provided for FireFox users as well.
 
 * Produce the `build/` directory
 
-        $ git clone https://github.com/0x1eef/myip.wtf
-        $ cd myip.wtf
+        $ git clone https://github.com/0x1eef/wimi
+        $ cd wimi
         $ npm i
         $ npm run build:production
 
@@ -39,14 +39,14 @@ There are XPI files provided for FireFox users as well.
 
 **Firefox**
 
-The [share/myip.wtf/xpi](share/myip.wtf/xpi) directory contains
+The [share/wimi/xpi/](share/wimi/xpi/) directory contains
 signed XPI files for Firefox users. After downloading an XPI file
 the extension can be added to the browser from `about:addons`.
 
 ## Sources
 
-* [GitHub](https://github.com/0x1eef/myip.wtf#readme)
-* [GitLab](https://gitlab.com/0x1eef/myip.wtf#about)
+* [GitHub](https://github.com/0x1eef/wimi#readme)
+* [GitLab](https://gitlab.com/0x1eef/wimi#about)
 
 ## License
 
