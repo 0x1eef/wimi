@@ -31,11 +31,11 @@ There are XPI files provided for FireFox users as well.
         $ npm run build:production
 
 * Load the extension
-    * Visit `chrome://extensions`.
-    * Check `Developer mode` (top right hand corner).
-    * Click `Load unpacked extension`.
-    * Choose the `build/production/` directory from the file dialog.
-    * Done.
+    * Visit `chrome://extensions`
+    * Check `Developer mode` (top right hand corner)
+    * Click `Load unpacked extension`
+    * Choose the `build/production/` directory from the file dialog
+    * Done
 
 **Firefox**
 
