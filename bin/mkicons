@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+
+##
+# variables
+sizes="16x16 48x48 64x64 128x128 256x256"
+dir="src/images/"
+
+##
+# main
+for size in ${sizes}; do
+    gm convert \
+       "${dir}"/icon.svg \
+       -resize "${size}" \
+       -background none \
+       -trim +repage \
+       -fuzz 5% \
+       -transparent white \
+       -gravity center \
+       -extent "${size}" \
+        "${dir}"/icon"${size}".png
+done

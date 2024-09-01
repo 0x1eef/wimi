@@ -24,7 +24,7 @@ describe("App.tsx", () => {
 
     test("loading text is rendered", () => {
       render(<App/>);
-      expect(screen.getByText("Loading...")).toBeInTheDocument();
+      expect(screen.getByTestId("loading")).toBeInTheDocument();
     });
   });
 

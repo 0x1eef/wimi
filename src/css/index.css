@@ -1,45 +1,11 @@
 :root {
-  /* Defaults */
-  --default-font-size: 1.15em;
-
   /* Colors */
-  --primary-red: #d73e48;
-  --primary-green: #32b643;
-  --primary-blue: #302ecd;
-  --secondary-blue: #807fe2;
-  --primary-white: #FFF;
-  --secondary-white:  #f1f1fc;
+  --primary-color: #E3F2FD;
+  --secondary-color: #333333;
+  --accent-color: #007BFF;
 }
 
-body {
-  font-size: small;
-  width: 400px;
-}
-
-#root, .loader {
-  height: 100%;
-}
-a {
-  color: var(--primary-blue) !important;
-  text-decoration: none;
-}
-a:visited {
-  color: var(--primary-blue) !important;
-}
-a:active, a:focus, a:hover {
-  color: var(--primary-blue) !important;
-  text-decoration: underline;
-}
-
-footer {
-  background: var(--secondary-white);
-  color: var(--primary-red);
-  width: 100%;
-}
-
-.loader {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  place-content: center;
+#root {
+  background: var(--primary-color);
+  color: var(--secondary-color);
 }

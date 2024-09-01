@@ -8,6 +8,7 @@ export function success(_path: RequestInfo | URL, _options?: RequestInit) {
         YourISP: "FooBar Ltd",
         YourCity: "Foo City",
         YourCountry: "United States of FooBar",
+        YourCountryCode: "BR",
         YourTorExit: false
       })
     )

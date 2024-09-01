@@ -1,5 +1,17 @@
 # -*- mode: org -*-
 
+** vNEXT
+
+**** Add bin/mkicons
+Replace the previous script
+
+**** Add new icons
+Replace the previous set of icons with wimi icons
+
+**** Hello wimi
+The project is now known as wimi - short for:
+what is my ip address
+
 ** v0.5.1
 
 **** Shorten description in manifest

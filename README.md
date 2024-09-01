@@ -1,4 +1,8 @@
-## About
+<p align="center">
+<img src="src/images/icon128x128.png"></img>
+<br>
+<strong>wimi</strong>
+</p>
 
 wimi relays information about your public IP address
 from
@@ -12,12 +16,6 @@ and
 The extension can be built locally and installed as a
 developer extension / addon on both Chromium and FireFox.
 There are XPI files provided for FireFox users as well.
-
-## Example
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/0x1eef/wimi/main/share/wimi/wimi.png">
-</p>
 
 ## Install
 
