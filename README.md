@@ -3,7 +3,15 @@
 myip.wtf relays information about your public IP address
 from
 [clean.myip.wtf/json](https://clean.myip.wtf/json)
-to your browser.
+to your browser. The primary development and runtime
+dependencies are
+[TypeScript](https://www.typescriptlang.org/),
+[preact](https://preactjs.com/),
+and
+[webpack](https://webpack.js.org/).
+The extension can be built locally and installed as a
+developer extension / addon on both Chromium and FireFox.
+There are XPI files provided for FireFox users as well.
 
 ## Example
 
