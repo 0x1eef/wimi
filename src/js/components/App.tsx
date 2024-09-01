@@ -1,5 +1,6 @@
 import { useWebService } from "~/hooks/useWebService";
 export function App() {
+  const t = chrome.i18n.getMessage;
   const [response, error] = useWebService();
   if (response) {
     return (
@@ -15,14 +16,14 @@ export function App() {
     return (
       <div data-testid="error" className="font-sans p-2 flex items-center w-full h-full">
         <img className="w-8 h-8" src={`/images/icon.svg`} />
-        <span className="ml-3 text-xs">Error</span>
+        <span className="ml-3 text-xs">{t("error")}</span>
       </div>
     );
   } else {
     return (
       <div data-testid="loading" className="font-sans p-2 flex items-center w-full h-full">
         <img className="w-8 h-8" src={`/images/icon.svg`} />
-        <span className="ml-3 text-xs">Loading</span>
+        <span className="ml-3 text-xs">{t("loading")}</span>
       </div>
     );
   }

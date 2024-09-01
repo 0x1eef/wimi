@@ -1,27 +1,6 @@
 {
-  "ip_address": {
-    "message": "IP Address"
-  },
-  "isp": {
-    "message": "ISP"
-  },
-  "location": {
-    "message": "Location"
-  },
-  "tor_exit_node": {
-    "message": "Tor exit node"
-  },
   "loading": {
-    "message": "Loading..."
-  },
-  "clean.myip.wtf": {
-    "message": "clean.myip.wtf"
-  },
-  "yes": {
-    "message": "Yes"
-  },
-  "no": {
-    "message": "No"
+    "message": "Loading"
   },
   "error": {
     "message": "Error"

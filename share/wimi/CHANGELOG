@@ -1,6 +1,9 @@
 # -*- mode: org -*-
 
-** vNEXT
+** v0.6.1
+
+**** Remove unneccessary translations
+Remove translations not in use anymore
 
 **** Replace UI
 The new UI is focused on being simple but useful
