@@ -1,4 +1,5 @@
 import { useWebService } from "~/hooks/useWebService";
+
 export function App() {
   const t = chrome.i18n.getMessage;
   const [response, error] = useWebService();
