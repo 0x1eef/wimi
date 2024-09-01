@@ -1,6 +1,6 @@
 # -*- mode: org -*-
 
-** vNEXT
+** v0.5.0
 
 **** Replace React with preact
 This change replaces React with a lightweight alternative
