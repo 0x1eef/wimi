@@ -46,6 +46,12 @@ the extension can be added to the browser from `about:addons`.
 * [GitHub](https://github.com/0x1eef/wimi#readme)
 * [GitLab](https://gitlab.com/0x1eef/wimi#about)
 
+## Credit
+
+The extension includes icons that have been downloaded
+via my premium account on [flaticon](https://www.flaticon.com).
+Credit to the original graphic artists
+
 ## License
 
 [BSD Zero Clause](https://choosealicense.com/licenses/0bsd/)

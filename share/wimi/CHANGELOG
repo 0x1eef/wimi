@@ -2,6 +2,10 @@
 
 ** vNEXT
 
+**** Rotate icon on loader screen
+The icon shown on the loader screen now slowly rotates
+to help indicate the loading state
+
 **** Replace ISP details with location details
 We now show the location details associated with an IP -
 usually a city and country
