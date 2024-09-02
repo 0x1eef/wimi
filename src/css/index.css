@@ -1,11 +1,17 @@
 :root {
   /* Colors */
-  --primary-color: #E3F2FD;
+  --primary-color: #FFF;
   --secondary-color: #333333;
   --accent-color: #007BFF;
 }
 
-#root {
+@font-face {
+  font-family: "Kanit Regular";
+  src: url("/fonts/kanit-regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "Kanit Regular";
   background: var(--primary-color);
   color: var(--secondary-color);
 }

@@ -3,8 +3,9 @@ export type TResponse = {
   ISP: string;
   City: string;
   Country: string;
-  countryCode: string;
-  isTorExitNode: boolean;
+  CountryCode: string;
+  Location: string;
+  IsTorExitNode: boolean;
 };
 
 export type TServerResponse = {
@@ -13,6 +14,7 @@ export type TServerResponse = {
   YourCity: string;
   YourCountry: string;
   YourCountryCode: string;
+  YourLocation: string;
   YourTorExit: boolean;
 };
 
@@ -23,8 +25,9 @@ export function Response(res: TServerResponse): TResponse {
   self.ISP = res.YourISP;
   self.City = res.YourCity;
   self.Country = res.YourCountry;
-  self.countryCode = res.YourCountryCode;
-  self.isTorExitNode = res.YourTorExit;
+  self.CountryCode = res.YourCountryCode;
+  self.Location = res.YourLocation;
+  self.IsTorExitNode = res.YourTorExit;
 
   return self;
 }

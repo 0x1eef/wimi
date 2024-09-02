@@ -2,8 +2,31 @@
 
 ** vNEXT
 
-**** Refresh flag icons
-The flag icons have been improved
+**** Replace ISP details with location details
+We now show the location details associated with an IP -
+usually a city and country
+
+**** Add ~src/fonts/kanit-regular.ttf~
+Add a custom font
+
+**** Center-align content
+Align content to the center.
+Both horizontal and vertical
+
+**** Apply minimum width
+A minimum width is now applied
+to ~browseraction.html~ via ~App.tsx~
+
+**** Remove horizontal scrollbar
+Remove a horizontal scrollbar that could appear
+when the extension's browser action appeared for
+the first time
+
+**** Change primary color
+Change the primary / background color to ~#FFF~
+
+**** Re-import flag icons
+The flag icons have been re-imported
 
 ** v0.6.1
 
