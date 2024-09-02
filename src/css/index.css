@@ -3,6 +3,7 @@
   --primary-color: #FFF;
   --secondary-color: #333333;
   --accent-color: #007BFF;
+  --error-color: #FF0000;
 }
 
 @font-face {
@@ -27,4 +28,10 @@ body {
 
 img[data-testid="spin"] {
   animation: rotate 2s linear infinite;
+}
+
+img[data-testid="error"] {
+  transition: filter 0.3s ease;
+  filter: drop-shadow(0 0 20px var(--error-color))
+          drop-shadow(0 0 10px var(--error-color));
 }

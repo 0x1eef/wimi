@@ -2,6 +2,10 @@
 
 ** vNEXT
 
+**** Add red glow on error screen
+The icon shown on the error screen how has an animation
+that adds a red glow
+
 **** Rotate icon on loader screen
 The icon shown on the loader screen now slowly rotates
 to help indicate the loading state

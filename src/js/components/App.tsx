@@ -18,9 +18,8 @@ export function App() {
   } else if (error) {
     return (
       <div data-testid="error" className="h-14 flex flex-col justify-center">
-        <div className="p-2 flex items-center w-full h-full min-w-48 justify-center">
-          <img className="w-8 h-8" src={`/images/icon.svg`} />
-          <span className="ml-3 text-xs">{t("error")}</span>
+        <div className="p-2 flex items-center h-full min-w-48 justify-center">
+          <img data-testid="error" className="w-8 h-8" src="/images/icon.svg" />
         </div>
       </div>
     );
