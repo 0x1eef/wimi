@@ -18,7 +18,7 @@ export function App() {
     return (
       <div data-testid="error" className="h-14 flex flex-col justify-center">
         <div className="p-2 flex items-center h-full min-w-48 justify-center">
-          <img data-testid="error" className="w-8 h-8" src="/images/icon.svg" />
+          <img data-testid="error" className="w-6 h-6" src="/images/icon.svg" />
         </div>
       </div>
     );
@@ -26,7 +26,7 @@ export function App() {
     return (
       <div data-testid="loading" className="h-14 flex flex-col justify-center">
         <div className="flex flex-col items-center h-full min-w-48 justify-center">
-          <img data-testid="spin" className="w-8 h-8" src="/images/icon.svg" />
+          <img data-testid="spin" className="w-6 h-6" src="/images/icon.svg" />
         </div>
       </div>
     );
