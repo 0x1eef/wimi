@@ -28,10 +28,10 @@
     "webpack-merge": "^6.0"
   },
   "scripts": {
-    "build:production": "npx webpack --config webpack.production.js",
-    "build:development": "npx webpack --config webpack.development.js",
-    "test": "npx jest test",
-    "eslint": "npx eslint src/"
+    "build:production": "npx webpack --config etc/webpack.production.js",
+    "build:development": "npx webpack --config etc/webpack.development.js",
+    "test": "npx jest --config etc/jest.config.js test",
+    "eslint": "npx eslint --config etc/eslint.config.mjs src/"
   },
   "dependencies": {
     "preact": "^10.23.2"

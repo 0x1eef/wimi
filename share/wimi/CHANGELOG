@@ -2,6 +2,9 @@
 
 ** vNEXT
 
+**** Add ~etc/~
+Move (most) configuration files to the ~etc/~ directory
+
 **** License: MIT
 The license has been changed from 0BSD to MIT.
 The motivating factor is the AMO store not appearing
@@ -18,8 +21,7 @@ The icon shown on the loader screen now slowly rotates
 to help indicate the loading state
 
 **** Replace ISP details with location details
-We now show the location details associated with an IP -
-usually a city and country
+Show the city and country associated with an IP
 
 **** Add ~src/fonts/kanit-regular.ttf~
 Add a custom font
