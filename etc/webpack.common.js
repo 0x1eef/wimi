@@ -1,5 +1,6 @@
 const path = require("path");
 const process = require("process");
+const webpack = require("webpack");
 const CopyPlugin = require("copy-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
@@ -9,17 +10,16 @@ module.exports = {
   },
   output: {
     filename: "js/[name].js",
-    path: path.resolve(__dirname, "build")
+    path: path.resolve(__dirname, "..", "build")
   },
   resolve: {
     alias: {
-      "~": [path.resolve("src/js/")],
+      "~": [path.resolve(__dirname, "..", "src", "js")],
       "react": "preact/compat",
       "react-dom": "preact/compat",
       "react/jsx-runtime": "preact/jsx-runtime",
     },
-    roots: [path.resolve("src/js"), path.resolve("node_modules")],
-    modules: [path.resolve("src/js"), path.resolve("node_modules")],
+    modules: [path.resolve(__dirname, "..", "node_modules")],
     extensions: [".ts", ".tsx"]
   },
   module: {
@@ -47,5 +47,8 @@ module.exports = {
       ],
     }),
     new CleanWebpackPlugin(),
+    new webpack.ProvidePlugin({
+      React: ['preact/compat']
+    }),
   ],
 }
