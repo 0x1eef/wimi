@@ -54,6 +54,6 @@ Credit to the original graphic artists
 
 ## License
 
-[BSD Zero Clause](https://choosealicense.com/licenses/0bsd/)
+[MIT](https://choosealicense.com/licenses/MIT/)
 <br>
-See [LICENSE](./LICENSE)
+See [LICENSE](./share/wimi/LICENSE)

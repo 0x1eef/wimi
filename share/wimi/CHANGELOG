@@ -1,5 +1,12 @@
 # -*- mode: org -*-
 
+** vNEXT
+
+**** License: MIT
+The license has been changed from 0BSD to MIT.
+The motivating factor is the AMO store not appearing
+to recognize the 0BSD license slug
+
 ** v0.7.0
 
 **** Add red glow on error screen

@@ -1,0 +1,9 @@
+{
+  "name": { "en-US": "wimi" },
+  "summary": { "en-US": "Your public IP address from clean.myip.wtf/json to your browser" },
+  "homepage": { "en-US": "https://github.com/0x1eef/wimi#readme" },
+  "support_email": { "en-US": "0x1eef@protonmail.com" },
+  "requires_payment": false,
+  "version": { "license": "MIT" },
+  "categories": { "firefox": ["privacy-security"] }
+}
