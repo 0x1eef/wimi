@@ -8,6 +8,6 @@ module.exports = merge(
     mode: "production",
     devtool: false,
     optimization: { minimize: true },
-    output: {path: path.resolve(__dirname, "build", "production")}
+    output: {path: path.resolve(__dirname, "..", "build", "production")}
   }
 )
