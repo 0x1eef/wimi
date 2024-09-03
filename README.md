@@ -45,6 +45,7 @@ the extension can be added to the browser from `about:addons`.
 
 * [GitHub](https://github.com/0x1eef/wimi#readme)
 * [GitLab](https://gitlab.com/0x1eef/wimi#about)
+* [brew.bsd.cafe/@0x1eef](https://brew.bsd.cafe/0x1eef/wimi)
 
 ## Credit
 
@@ -54,6 +55,6 @@ Credit to the original graphic artists
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/MIT/)
+[The MIT License](https://choosealicense.com/licenses/MIT/)
 <br>
 See [LICENSE](./share/wimi/LICENSE)
