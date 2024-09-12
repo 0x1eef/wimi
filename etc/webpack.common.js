@@ -48,7 +48,7 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
     new webpack.ProvidePlugin({
-      React: ['preact/compat']
+      React: ["preact/compat"]
     }),
   ],
 }
