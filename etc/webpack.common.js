@@ -20,7 +20,7 @@ module.exports = {
       "react/jsx-runtime": "preact/jsx-runtime",
     },
     modules: [path.resolve(__dirname, "..", "node_modules")],
-    extensions: [".ts", ".tsx"]
+    extensions: [".js", ".ts", ".tsx"]
   },
   module: {
     rules: [
@@ -30,7 +30,7 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           loader: "tsx",
-          target: "es2015"
+          target: "ES5"
         }
       },
     ],

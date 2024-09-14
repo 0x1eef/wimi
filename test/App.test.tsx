@@ -1,6 +1,5 @@
-import React from "react";
 import '@testing-library/jest-dom';
-import { render, screen, act } from "@testing-library/react";
+import { render, screen, act } from "@testing-library/preact";
 import { App } from "~/components/App";
 import { getMessage } from "./mocks/chrome.i18n";
 import { success, error, loading } from "./mocks/fetch";
@@ -33,7 +32,7 @@ describe("App.tsx", () => {
     afterEach(() => { global.fetch = globalFetch; });
 
     test("response is rendered", async () => {
-      await act(() => render(<App/>));
+      await act(() => { render(<App/>) });
       expect(screen.getByTestId("response")).toBeInTheDocument();
     });
   });
@@ -43,7 +42,7 @@ describe("App.tsx", () => {
     afterEach(() => { global.fetch = globalFetch; });
 
     test("error is rendered", async () => {
-      await act(() => render(<App/>));
+      await act(() => { render(<App/>) });
       expect(screen.getByTestId("error")).toBeInTheDocument();
     });
   });
