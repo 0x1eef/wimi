@@ -30,7 +30,7 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           loader: "tsx",
-          target: "ES5"
+          target: "ES2020"
         }
       },
     ],
