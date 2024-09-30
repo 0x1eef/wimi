@@ -19,7 +19,7 @@ There are XPI files provided for FireFox users as well.
 
 ## Install
 
-**Chrome**
+**Chromium|Chrome**
 
 * Produce the `build/` directory
 
@@ -37,9 +37,9 @@ There are XPI files provided for FireFox users as well.
 
 **Firefox**
 
-The [share/wimi/xpi/](share/wimi/xpi/) directory contains
-signed XPI files for Firefox users. After downloading an XPI file
-the extension can be added to the browser from `about:addons`.
+wimi can be installed [from mozilla's store](https://addons.mozilla.org/en-US/firefox/addon/97c865f874d543128d35/).
+The add-on can also be built locally and side-loaded - similar
+to the process that was described for **Chromium|Chrome** users.
 
 ## Sources
 
